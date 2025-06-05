@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skills & Certificates</title>
+  <link rel="stylesheet" href="design.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #f5f3ff;
+    }
+
+    header {
+      background-color: #dabaff;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 0 0 2rem 2rem;
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      color: #6b3fa0;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5c2d91;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem 2rem 1rem 2rem;
+    }
+
+    .scrapbook-page {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .scrap-row {
+      display: flex;
+      align-items: center;
+      background-color: #fff6ff;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      max-width: 900px;
+      width: 100%;
+      position: relative;
+    }
+
+    .scrap-row img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 4px solid #dabaff;
+      border-radius: 15px;
+      margin-right: 1.5rem;
+      box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .scrap-text h3 {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.6rem;
+      color: #a262d3;
+      margin: 0 0 0.5rem;
+    }
+
+    .scrap-text p {
+      color: #4b4b4b;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .washi-tape {
+      content: "";
+      width: 60px;
+      height: 20px;
+      background: repeating-linear-gradient(
+        45deg,
+        #e0baff,
+        #e0baff 5px,
+        #ffffff 5px,
+        #ffffff 10px
+      );
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      transform: rotate(-5deg);
+      border-radius: 3px;
+    }
+
+    footer {
+      background-color: #dabaff;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 1rem 1rem 0 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Skills & Certificates</h1>
+    <nav>
+      <ul>
+        <li><a href="website.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skills.html">Skills & Certificates</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="challenges.html">Challenges & Learnings</a></li>
+        <li><a href="future.html">Future Plans</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="scrapbook-page">
+      <div class="scrap-row">
+        <div class="washi-tape"></div>
+        <div class="scrap-text">
+          <h3>⌨ MS Office & Typing</h3>
+          <p>
+            Proficient in Microsoft Word, PowerPoint, and Excel. Strong typing skills with a current speed of 54 WPM.
+          </p>
+        </div>
+      </div>
+
+      <div class="scrap-row">
+        <div class="washi-tape"></div>
+        <div class="scrap-text">
+          <h3>♨ Programming Skills</h3>
+          <p>
+            Familiar with C++, C#, Java, JavaScript, CSS, and PHP. Experienced in IDEs such as DevC++, Sublime Text, Apache NetBeans, PyCharm and Visual Studio Code.
+          </p>
+        </div>
+      </div>
+
+      <div class="scrap-row" style="justify-content: center; padding-left: 3rem;">
+        <div class="washi-tape"></div>
+        <div class="scrap-text">
+        <h3>☘︎ Currently Learning</h3>
+          <p>
+            Continuously improving my programming skills with a focus on game development and backend development, as I’m less inclined toward front-end or UI/UX design
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</b></p>
+  </footer>
+</body>
+</html>

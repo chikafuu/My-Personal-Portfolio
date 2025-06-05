@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="design.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem 0;
+    }
+
+    footer {
+      width: 100%;
+      background-color: #d4bfff;
+      padding: 1rem;
+      border-radius: 20px;
+      text-align: center;
+      color: #3a3a3a;
+      font-size: 0.9rem;
+      max-width: 95%;
+      margin: 0 auto 20px auto;
+    }
+
+    .two-column-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 300px;
+      background-color: #fefaff;
+      border: 2px dashed #dabaff;
+      border-radius: 20px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .column h2 {
+      color: #a875e7;
+      margin-bottom: 1rem;
+    }
+
+    .column p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+      color: #5a5a5a;
+    }
+
+    header {
+      background-color: #bae1ff;
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
+    }
+
+    header h1 {
+      color: #6d6dfb;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #6d6dfb;
+      font-weight: bold;
+      background-color: #ffffffb3;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      background-color: #e0ccff;
+      color: #4030a3;
+    }
+
+    @media (max-width: 768px) {
+      .two-column-section {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Challenges & Learnings</h1>
+    <nav>
+      <ul>
+        <li><a href="website.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skills.html">Skills & Certificates</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="challenges.html">Challenges & Learnings</a></li>
+        <li><a href="future.html">Future Plans</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="two-column-section">
+      <div class="column">
+        <h2>Challenges</h2>
+        <p>
+          Balancing work and academics as a BPO-working student was exhausting but taught me discipline.<br>
+          Learning how to code with Python and C++ was hard at first but rewarding.<br>
+          Communicating and collaborating in a group where not everyone is equally active was a struggle. <br>
+          One of my biggest struggles was learning how to get along with everyone at work—especially in an office setting. Since it’s a professional environment, I had no choice but to adapt. Without connections or peers to lean on, it can feel isolating and overwhelming.
+        </p>
+      </div>
+
+      <div class="column">
+        <h2>Learnings</h2>
+        <p>
+         Working in a BPO office environment allowed me to experience, at the young age of 21, what it truly feels like to be part of the corporate world. It’s physically and mentally tiring—you need integrity, discipline, and there’s little to no room for mistakes because you’re already representing a client. Unlike in school where mistakes are part of learning, in the corporate setting, errors can have serious consequences.<br>
+         I’ve learned how to manage my salary better now that I’m working. One personal rule I follow is to leave items in my online shopping cart for at least a week. If after that time I still want the item, then I allow myself to buy it. But if I’ve lost interest, I remove it. This simple habit helped me control impulsive spending and prioritize my needs over wants.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</b></p>
+  </footer>
+</body>
+</html>
