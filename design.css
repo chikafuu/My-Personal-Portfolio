@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #dcefff, #f0e6ff);
+  color: #5a5a5a;
+  padding: 1rem;
+}
+
+
+header {
+  background-color: #bae1ff;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem; 
+}
+
+header h1 {
+  color: #6d6dfb;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6d6dfb;
+  font-weight: bold;
+  background-color: #ffffffb3;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #e0ccff;
+  color: #4030a3;
+}
+
+main {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.scrapbook {
+  margin-top: 3rem;
+}
+
+.scrapbook h2 {
+  color: #6d6dfb;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.photo-slot {
+  width: 100%;
+  max-width: 250px;
+  height: 200px;
+  background-color: #fff6ff;
+  border: 3px dashed #d9b3ff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b387ff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.photo-slot:hover {
+  background-color: #f0e6ff;
+  cursor: pointer;
+}
+
+.photo-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.about-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-scrapbook {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.photo-quad {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.about-photo {
+  width: 180px;
+  height: 220px;
+  background-color: #fff6ff;
+  border-radius: 60% 60% 20% 20%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  border: 3px dashed #d9b3ff;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scrapbook-page {
+  width: 100%; 
+  max-width: 1200px;
+  padding: 2rem;
+  background-color: #fff5ff;
+  border-radius: 20px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.scrap-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  background-color: #fdf4ff;
+  padding: 1.5rem;
+  border: 2px dashed #dabaff;
+  border-radius: 20px;
+}
+
+.scrap-row img {
+  width: 320px;         
+  height: 200px;       
+  object-fit: cover;    
+  border-radius: 16px;  
+  border: 3px dashed #caa0ff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.scrap-text {
+  flex: 1;
+  text-align: left;
+}
+
+.scrap-text h3 {
+  color: #a875e7;
+  margin-bottom: 0.5rem;
+}
+
+.scrap-text p {
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #d4bfff;
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 0.9rem;
+  margin-top: 150px;
+  box-sizing: border-box;
+}
